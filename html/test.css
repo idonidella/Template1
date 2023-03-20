@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Lato", sans-serif;
-  background: #f4f1f1;
+  background: #ffffff;
 
 }
 
@@ -38,7 +38,7 @@ body {
 
 
 
-.ilkresim1 {
+.ilkresim1yazı {
   color: #ffffff;
   height: 80px;
   font-weight: lighter;
@@ -50,7 +50,7 @@ body {
 
 }
 
-.ilkresim2 {
+.ilkresim2yazı {
   color: #ffffff;
   font-weight: lighter;
   margin: 0;
@@ -124,7 +124,6 @@ body {
 
 .tour {
   background-color: #000;
-  position: relative;
   width: 100%;
   height: 880px;
 }
@@ -157,7 +156,6 @@ body {
   margin: 30px auto;
   gap: 10px;
   display: flex;
-
 
 }
 
@@ -223,7 +221,7 @@ body {
 }
 
 .ressim {
-  width: 260px;
+  width: 100%;
 }
 
 .tarih {
@@ -245,82 +243,122 @@ body {
   background-color: grey;
 }
 
-.gallery1,
-.gallery2,
-.gallery3 {
+
+
+.gallery {
   background-color: #fff;
   height: 400px;
 }
 
 
 
+
+
+
+
 .contact {
 
-  text-align: center;
+
   background-color: #ffffff;
-  width: 100%;
+
+  margin: 0;
   height: 435px;
 
 
 }
 
-.buttons {
+.buyukdiv {
 
-  display: inline-block;
-  width: 100%;
-  max-width: 800px;
-  margin-left: 100px;
-  height: 250px;
+  display: flex;
+  flex-direction: row;
+
+
+
+}
+
+
+.uclutext {
+
+
+  display: block;
+  margin: 0;
+  margin-left: 30px;
+
+
+  font-weight: lighter;
+
 
 }
 
 .ilkdiv {
 
   display: inline-block;
+  margin-top: 20px;
   text-align: left;
-  margin-top: 40px;
-  padding-bottom: 90px;
-  height: 100px;
+  margin-left: 27%;
+  height: 70px;
 
 }
+
+
 
 .üçbutonbölümü {
+
   display: inline-block;
+  margin-left: 260px;
+  margin-top: 20px;
   max-width: 400px;
-  width: 100%;
-  margin-top: 60px;
-  margin-left: 75px;
   height: 200px;
 }
+
 
 .butonlar1 {
 
   height: 35px;
   max-width: 170px;
-  width: 100%;
-
-
+  width: 170px;
 }
 
 
 .butonlar2 {
-  height: 35px;
-  max-width: 170px;
-  width: 100%;
-  margin-left: 7px;
 
+  height: 35px;
+  margin: 0;
+  width: 170px;
+  max-width: 170px;
+  margin-left: 7px;
 
 }
 
 
 .butonlar3 {
+  display: inline;
   height: 35px;
-  max-width: 355px;
-  width: 100%;
+  margin: 0;
   margin-top: 10px;
-
-
+  width: 100%;
+  max-width: 355px;
 }
+
+
+.sonbuton {
+  display: inline;
+  background-color: #000;
+  color: #fff;
+  width: 100%;
+  height: 40px;
+  float: right;
+  width: 100%;
+  max-width: 75px;
+  margin-right: 40px;
+  margin-top: 15px;
+}
+
+.sonbuton:hover {
+  background-color: grey;
+}
+
+
 
 
 .bilgiler1 {
@@ -331,18 +369,6 @@ body {
 
 }
 
-.bilgiler2 {
-  float: left;
-  color: #000000;
-
-
-}
-
-.bilgiler3 {
-  float: left;
-  color: #000000;
-
-}
 
 
 .son {
@@ -362,6 +388,9 @@ body {
 
 }
 
+.ucresim99 {
+  width: 100%;
+}
 
 .footprg {
   text-align: center;
@@ -395,3 +424,255 @@ body {
   color: rgb(6, 103, 221);
 }
 
+
+
+@media screen and (max-width: 600px) and (min-width: 300px) {
+  .ucluresim1 {
+    display: inline;
+    width: 40%;
+  }
+
+  .ucluresim2 {
+    display: inline;
+  }
+
+  .ucresim99 {
+
+    width: 50%;
+  }
+
+  .ucresimalan {
+    text-align: center;
+    width: 100%;
+    padding-bottom: 80px;
+
+  }
+
+
+  .tour {
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+  }
+
+
+  .cards {
+
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+
+  .gallery {
+    background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+
+
+  }
+
+
+
+  .contact {
+
+    text-align: center;
+    background-color: #ffffff;
+    width: 100%;
+    height: 590px;
+
+
+  }
+
+
+
+  .buyukdiv {
+
+    display: inline-block;
+    justify-content: none;
+
+  }
+
+
+
+  .uclutext {
+
+
+    display: block;
+    margin: 0;
+    margin-left: 30px;
+    padding-bottom: 0px;
+
+    font-weight: lighter;
+
+
+  }
+
+
+  .ilkdiv {
+
+    display: inline-block;
+    margin-top: 30px;
+    text-align: left;
+    margin-right: 56%;
+    padding-left: 0px;
+    margin-left: 0%;
+    height: 90px;
+    width: 100%;
+
+  }
+
+
+  .üçbutonbölümü {
+
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+    margin-left: 0px;
+    margin-top: 15px;
+    height: 82px;
+
+  }
+
+  .butonlar1 {
+    display: inline;
+    height: 35px;
+    width: 95%;
+    max-width: 500px;
+
+
+  }
+
+
+  .butonlar2 {
+    display: inline;
+    height: 35px;
+    margin: 0;
+    width: 95%;
+    max-width: 500px;
+    margin-left: 0px;
+
+
+  }
+
+  .butonlar3 {
+    display: inline;
+    height: 35px;
+    margin: 0;
+    margin-top: 5px;
+    width: 95%;
+    max-width: 455px;
+  }
+
+
+  .sonbuton {
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+    height: 40px;
+    float: right;
+    width: 100%;
+    max-width: 75px;
+    margin-right: 10px;
+    margin-top: 15px;
+  }
+
+  .sonbuton:hover {
+    background-color: grey;
+  }
+
+
+  .uclutext {
+
+
+    display: block;
+    margin: 0;
+    margin-left: 30px;
+    width: 100%;
+    font-weight: lighter;
+
+
+  }
+
+  .aylar {
+    background-color: #df0d0d;
+    max-width: 800px;
+    width: 93%;
+    margin: 0px auto;
+    padding: 5px;
+    border: 1px;
+    border-style: solid;
+    background-color: #ffffff;
+    color: grey;
+    list-style-type: none;
+  }
+
+
+  .topnav {
+    overflow: hidden;
+    background-color: #000000;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  .topnav a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 13px 20px;
+    text-decoration: none;
+    font-size: 12px;
+  }
+
+  .topnav a:hover {
+    background: #ddd;
+    color: black;
+  }
+
+
+  .arama {
+    float: right;
+    width: 20px;
+    height: 20px;
+
+  }
+
+
+
+  .ilkresim1yazı {
+    color: #ffffff;
+    height: 60px;
+    font-weight: lighter;
+    font-size: 1.4ch;
+    margin: 0;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+  }
+
+  .ilkresim2yazı {
+    color: #ffffff;
+    font-weight: lighter;
+    margin: 0;
+    font-size: 1.1ch;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+}
